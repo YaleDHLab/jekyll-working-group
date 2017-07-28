@@ -1,0 +1,10 @@
+---
+layout: default
+---
+
+{% for animal in site.data.animals %}
+  <div class='animal-card'>
+    <div class='mascot'></div>
+    <span>{{ animal.animal_common_name }}</span>
+  </div>
+{% endfor %}
