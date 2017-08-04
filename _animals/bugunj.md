@@ -1,6 +1,5 @@
 ---
-nocturnal: false
-likes_leaves: false
-sounds_like_broken_motorcycle: false
 layout: animal
+image: http://orientalbirdimages.org/images/data/bugun_liocichlaeaglenest08_decemeber_2015two.jpg
+name: Bugunj
 ---

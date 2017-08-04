@@ -2,9 +2,8 @@
 layout: default
 ---
 
-{% for animal in site.data.animals %}
+{% for animal in site.animals %}
   <div class='animal-card'>
-    <div class='mascot'></div>
-    <span>{{ animal.animal_common_name }}</span>
+   	<div class='background-image' style='background-image:url({{ animal.image }})'></div>
   </div>
 {% endfor %}

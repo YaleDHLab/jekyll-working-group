@@ -33,11 +33,13 @@ span {
   box-sizing: border-box;
 }
 
-.mascot {
-  background: url(https://scontent.cdninstagram.com/t51.2885-15/e35/14624749_990271894433223_1924580823932076032_n.jpg) no-repeat center center; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  padding-bottom: 80%;
-}
+.background-image {
+    background-repeat: no-repeat;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding-bottom: 80%;
+  }
+
